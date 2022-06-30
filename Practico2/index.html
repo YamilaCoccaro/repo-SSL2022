@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="main.js" type="module"></script>
+  <title>Práctico n° 2</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <div class="shadow-lg p-3 mb-5 mt-4 bg-body rounded">
+      <form id="formulario" class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+          <label for="cuenta" class="form-label">Cuenta</label>
+          <input type="text" class="form-control" id="cadena" required>
+          <div class="valid-feedback">¡Aceptada!</div>
+          <div class="invalid-feedback">Rechazada</div>
+        </div>
+        <div class="col-12">
+          <button id="btn" class="btn btn-primary" type="submit">Submit</button>
+        </div>
+        </form>
+    </div>
+  </div>
+
+</body>
+
+</html>
