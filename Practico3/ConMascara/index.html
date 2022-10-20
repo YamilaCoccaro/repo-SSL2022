@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src=”https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.min.js”></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+
+    <title>Formulario con máscara</title>
+</head>
+<body>
+
+    <div class="formulario">
+        <h3>Formulario de contacto</h3>
+        <div class="nombre">
+            <label for="myid">Nombre:</label>
+            <input type="text" name="Nombre" id="minombre" required><br>
+        </div>
+        <div class="apellido">
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="miapellido" required><br>
+        </div> 
+        <div class="edad">
+            <label for="edad">Edad:</label>
+            <input type="text" name="edad" id="miedad" required><br>
+        </div>
+        <div class="fechaNac">
+                <label for="d">Fecha de nacimiento:</label>
+                <input type="text" name="fechaNac" id="mifn" placeholder="DD/MM/AAAA" required><br>
+        </div> 
+        <div class="dni">
+                <label for="dni">DNI:</label>
+                <input type="text" name="dni" id="midni" required><br>
+        </div>
+        <div class="cuit">
+            <label for="cuit">Cuit:</label>
+            <input type="text" name="cuit" id="micuit" required><br>
+        </div>
+        <div class="sexo">
+            <label for="sexo">Sexo: (F/M/I)</label>
+            <input type="text" name="sexo" id="misexo" required><br>
+        </div>
+        <div class="telefono">
+            <label for="telefono">Teléfono:</label>
+            <input type="text" name="telefono" id="mitel" placeholder="2392-555555" required><br>
+        </div>
+        <div class="mail">
+            <label for="mail">Mail:</label>
+            <input type="text" name="mail" id="mimail" required><br>
+        </div>
+
+        <div class="submit_btn">
+            <input type="submit" value="Enviar">
+        </div>
+    </div>
+    <script type="text/javascript" src="jquerymask.js"></script>
+</body>
+</html>
